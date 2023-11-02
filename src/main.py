@@ -1,4 +1,5 @@
-from pyMaze import maze,agent,COLOR
+from pyamaze import maze,agent,COLOR
+
 def DFS(m):
     start=(m.rows, m.cols)
     explored=[start]
@@ -30,11 +31,11 @@ def DFS(m):
         cell=dfsPath[cell]
     return fwdPath
 
-if _name=='main_':
-    m=maze(4,4)
+if __name__=='__main__':
+    m=maze(8,8)
     m.CreateMaze(loopPercent=50)
     path=DFS(m)
-    a=agent(m,footprints=True)
+    a=agent(m,footprints=True, shape = "arrow")
     m.tracePath({a:path})
 
     m.run()
