@@ -1,7 +1,7 @@
 # Maze Solver / Pathfinding Prowess 
 # ⬆️⬇️⬅️➡️↘️↙️↖️↗️
 
-Our Mini Project for Semester 5 (DAA - Design and Analysis of Algorithms). In this project, we explore the concepts of Depth-First Search (DFS), mazes, and pathfinding algorithms.
+In this project, we explore real-world applications of Depth-First Search (DFS), mazes, and pathfinding algorithms.
 
 ## 🗒️ Table of Contents
 - [Definitions](#definitions)
